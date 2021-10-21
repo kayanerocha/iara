@@ -1,0 +1,63 @@
+@media (max-width: 480px){
+    .container .header{
+        height: 75px;
+    }
+
+    .container .header .titulo{
+        width: 1000px;
+    }
+
+    .container .header .titulo h1{
+        font-size: 13px;
+    }
+
+    .container .busca-informacoes p{
+        font-size: 13px;
+    }
+
+    .container .busca-informacoes form div input, button{
+        height: 80%;
+        font-size: 13px;
+    }
+
+    .container .busca-informacoes form div button{
+        padding: 1px;
+        font-size: 13px;
+    }
+
+    .container .info-vetor{
+        font-size: 10px;
+        width: 90%;
+    }
+
+    .container .info-vetor .resumo div table tr{
+        width: 220px;
+    }
+
+    .container .info-vetor .resumo div table tr .item{
+        width: 170px;
+    }
+
+    .container .footer{
+        height: 125px;
+        margin-top: 5%;
+    }
+
+    .container .footer .logo-jarvis img{
+        width: 100px;
+    }
+
+    .container .footer .navegacao{
+        width: 10px;
+        margin-left: 8%;
+    }
+
+    .container .footer .navegacao ul div{
+        padding-right: 40px;
+        font-size: 10px;
+    }
+
+    .container .footer .navegacao ul div:last-child li{
+        width: 120px;
+    }
+}
