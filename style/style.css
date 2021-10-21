@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 *{
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -13,15 +11,16 @@
     flex-direction: column;
 }
 
-.container .header{
+.container .header, .footer{
     background-color: rgba(51, 51, 51, 1);
+    width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
 }
 
 .container .header .logo-oi-solucoes{
-    padding-left: 5%;
+    margin-left: 5%;
 }
 
 .container .header .logo-oi-solucoes img{
@@ -42,7 +41,6 @@
     flex-direction: column;
     align-self: center;
     margin-top: 2%;
-    /* border: 1px solid black; */
 }
 
 .container .busca-informacoes p{
@@ -57,7 +55,6 @@
 .container .busca-informacoes form{
     display: flex;
     flex-direction: row;
-    /* border: 1px solid black; */
 }
 
 .container .busca-informacoes form div:first-child{
@@ -66,7 +63,6 @@
 
 .container .busca-informacoes form div input{
     width: 90%; 
-    /* border: 1px solid #000; */
     box-sizing: border-box;
     border-radius: 8px;
     padding: 3px;
@@ -101,6 +97,7 @@
 
 .container .info-vetor nav .menu{
     display: flex;
+    margin-top: -0.5px;
     list-style: none;
     background-color: #C4C4C4;
 }
@@ -138,7 +135,6 @@
     padding-bottom: 5%;
     margin-top: 2%;
     border-radius: 4px;
-    /* border: 1px solid black; */
 }
 
 .container .info-vetor .resumo div:first-child{
@@ -179,3 +175,55 @@
 .container .info-vetor .resumo div table tr .valor{
     align-self: flex-end;
 }
+
+.container .footer{
+    height: 150px;
+    margin-top: 5%;
+}
+
+.container .footer .logo-jarvis{
+    margin-left: 5%;
+}
+
+.container .footer .logo-jarvis img{
+    width: 100%;
+}
+
+.container .footer .navegacao{
+    text-align: center;
+    margin-left: 25%;
+}
+
+.container .footer .navegacao ul div:last-child{
+    width: 500px;
+    margin-left: 50%;
+}
+
+.container .footer .navegacao ul{
+    display: flex;
+    align-items: center;
+}
+
+.container .footer .navegacao ul .linha-vertical, .linha-vert{
+    height: 100px;
+    margin-left: -30%;
+    margin-right: 30%;
+    border-left: 1px solid #FFF;
+}
+
+.container .footer .navegacao ul .linha-vert{
+    margin-left: 30%;
+    margin-right: -30%;
+}
+
+.container .footer .navegacao ul div li{
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+.container .footer .navegacao ul div li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
