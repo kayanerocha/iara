@@ -1,20 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/teste.css">
-    <title>Document</title>
+    <title>Teste</title>
 </head>
+
 <body>
-    <header class="container">
-        <div class="logo-oi-solucoes">
-            <img src="img/logo.png" alt="Logo Oi Soluções">
+    <div class="container">
+        <header class="header">
+            <div class="logo-oi-solucoes">
+                <img src="img/logo.png" alt="Logo Oi Soluções">
+            </div>
+            <div class="titulo">
+                <h1>Painel de Consulta do Iara</h1>
+            </div>
+        </header>
+
+        <div class="busca-informacoes">
+            <p>Informe o Vetor que deseja ter informações</p>
+            <form action="" method="GET">
+                <div><input type="search" name="busca" id="busca"></div>
+                <div><button type="submit">Buscar</button></div>
+            </form>
         </div>
-        <div class="titulo">
-            <h1>Painel de Consulta do Iara</h1>
+
+        <div class="container info-vetor">
+            <nav>
+                <ul class="menu">
+                    <a href="resumo.html"><li>Resumo</li></a>
+                    <a href="dre.html"><li>DRE</li></a>
+                    <a href="#"><li>Produtos</li></a>
+                </ul>
+            </nav>
+
+            <div class="container resumo">
+                <div>
+                    <h3>Resumo (em Milhares)</h3>
+                </div>
+    
+                <div class="informacoes">
+                    <table>
+                        <tr>
+                            <td class="item">Receita Líquida</td>
+                            <td class="valor">R$ 338,05</td>
+                        </tr>
+                        <tr>
+                            <td class="item">OPEX</td>
+                            <td class="valor">-R$ 297,95</td>
+                        </tr>
+                        <tr>
+                            <td class="item">EBITDA</td>
+                            <td class="valor">R$ 40,11</td>
+                        </tr>
+                        <tr>
+                            <td class="item">CAPEX</td>
+                            <td class="valor">R$ 297,95</td>
+                        </tr>
+                        <tr>
+                            <td class="item">FCL</td>
+                            <td class="valor">R$ 30,56</td>
+                        </tr>
+                        <tr>
+                            <td class="item">FCLA 6 Meses</td>
+                            <td class="valor">R$ 7,95</td>
+                        </tr>
+                        <tr>
+                            <td class="item">FCLA 12 Meses</td>
+                            <td class="valor">R$ 15,28</td>
+                        </tr>
+                        <tr>
+                            <td class="item">VPL</td>
+                            <td class="valor">R$ 27,33</td>
+                        </tr>
+                        <tr>
+                            <td class="item">%EVA</td>
+                            <td class="valor">9%</td>
+                        </tr>
+                        <tr>
+                            <td class="item">Margem EBITDA%</td>
+                            <td class="valor">12%</td>
+                        </tr>
+                        <tr>
+                            <td class="item">Payback</td>
+                            <td class="valor">0 meses</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
-    </header>
+    </div>
 </body>
+
 </html>
