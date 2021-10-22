@@ -65,7 +65,15 @@
     }
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
+    .container .header{
+        width: 104%;
+    }
+
+    .container .footer{
+        width: 104%;
+    }
+
     .container .header .titulo h1{
         font-size: 15px;
     }
@@ -94,6 +102,10 @@
     .container .footer .navegacao ul div{
         padding-right: 80px;
         font-size: 12px;
+    }
+
+    .container .footer .navegacao ul div:last-child{
+        padding: 0;
     }
 
     .container .footer .navegacao ul div:last-child li{
