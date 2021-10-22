@@ -177,22 +177,19 @@
 
 .container .info-vetor .resumo div table tr .valor{
     flex-grow: 0;
+    align-self: flex-end;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     letter-spacing: -0.015em;
 }
 
-.container .info-vetor .resumo div table tr .valor{
-    align-self: flex-end;
-}
-
 .container .footer{
     height: 150px;
-    width: 100%;
     margin-top: 5%;
 }
 
 .container .footer .logo-jarvis{
+    flex-grow: 0;
     margin-left: 5%;
 }
 
@@ -200,31 +197,24 @@
     width: 100%;
 }
 
-.container .footer .navegacao{
-    text-align: center;
-    margin-left: 25%;
+.container .footer .linha-vertical{
+    flex-grow: 1;
+    align-items: flex-end;
+    height: 100px;
+    border-right: 1px solid #FFF;
 }
 
-.container .footer .navegacao ul div:last-child{
-    width: 500px;
-    margin-left: 50%;
+.container .footer .navegacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .container .footer .navegacao ul{
     display: flex;
     align-items: center;
-}
-
-.container .footer .navegacao ul .linha-vertical, .linha-vert{
-    height: 100px;
-    margin-left: -30%;
-    margin-right: 30%;
-    border-left: 1px solid #FFF;
-}
-
-.container .footer .navegacao ul .linha-vert{
-    margin-left: 30%;
-    margin-right: -30%;
 }
 
 .container .footer .navegacao ul div li{
@@ -233,6 +223,30 @@
 }
 
 .container .footer .navegacao ul div li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .footer .linha-vertical-2{
+    flex-grow: 1;
+    height: 100px;
+    border-left: 1px solid #FFF;
+}
+
+.container .footer .sugestoes{
+    flex-grow: 1;
+    height: 100px;
+}
+
+.container .footer .sugestoes ul div li{
+    width: 40%;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+.container .footer .sugestoes ul div li a{
     text-decoration: none;
     color: #FFF;
     font-family: 'Roboto', sans-serif;

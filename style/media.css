@@ -118,6 +118,10 @@
         width: 100%;
     }
 
+    .container .header .titulo h1{
+        font-size: 100%;
+    }
+
     .container .info-vetor{
         width: 90%;
     }
@@ -126,11 +130,17 @@
         width: 80%;
     }
 
-    .container .header .titulo h1{
+    .container .info-vetor .resumo div:first-child h3{
         font-size: 100%;
     }
 
-    .container .info-vetor .resumo div:first-child h3{
-        font-size: 100%;
+    .container .footer .logo-jarvis{
+        border: 1px solid red;
+    }
+
+    .container .footer .navegacao{
+        /* width: 63%; */
+        margin-left: 1%;
+        border: 1px solid yellow;
     }
 }
