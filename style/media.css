@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .container .header{
         width: 104%;
     }
@@ -111,4 +111,30 @@
     .container .footer .navegacao ul div:last-child li{
         width: 160px;
     }
+} */
+
+@media (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+
+    .container .info-vetor{
+        width: 90%;
+    }
+
+    .container .info-vetor .resumo{
+        width: 80%;
+    }
+
+    /* .container .info-vetor .resumo div table tr{
+        width: 75%;
+    } */
+
+    /* .container .info-vetor .resumo div table tr .item{
+        flex-grow: 1;
+    }
+
+    .container .info-vetor .resumo div table tr .valor{
+        flex-grow: 1;
+    } */
 }
