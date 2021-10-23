@@ -191,6 +191,7 @@
 .container .footer .logo-jarvis{
     flex-grow: 0;
     margin-left: 5%;
+    /* width: 100%; */
 }
 
 .container .footer .logo-jarvis img{
