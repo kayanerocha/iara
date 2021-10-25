@@ -1,8 +1,5 @@
-@media (max-width: 480px){
-    .container{
-        width: 100%;
-    }
-
+/* extra small screen */
+@media (max-width: 768px){
     .container .header .titulo h1{
         font-size: 100%;
     }
@@ -12,7 +9,7 @@
     }
 
     .container .info-vetor{
-        width: 70%;
+        width: 80%;
     }
 
     .container .info-vetor .resumo{
@@ -21,5 +18,65 @@
 
     .container .info-vetor .resumo div:first-child h3{
         font-size: 100%;
+    }
+}
+
+@media (min-width: 700px){
+    .container .header .titulo h1{
+        font-size: 20px;
+    }
+}
+
+/* small screen */
+@media (min-width: 768px){
+    .container .info-vetor{
+        width: 80%;
+    }
+
+    .container .info-vetor .resumo{
+        width: 60%;
+    }
+}
+
+@media (min-width: 820px){
+    .container .info-vetor{
+        width: 80%;
+    }
+
+    .container .info-vetor .resumo{
+        width: 60%;
+    }
+}
+
+/* large screen */
+@media (min-width: 1100px){
+    .container .info-vetor{
+        width: 80%;
+    }
+
+    .container .info-vetor .resumo{
+        width: 50%;
+    }
+}
+
+/* extra large screen */
+@media (min-width: 1500px){
+    .container .info-vetor .resumo{
+        width: 40%;
+    }
+}
+
+/* extra large screen 2 */
+@media (min-width: 1900px){
+    .container .header .titulo{
+        margin-left: 25%;
+    }
+
+    .container .header .titulo h1{
+        font-size: 35px;
+    }
+
+    .container .info-vetor .resumo{
+        width: 30%;
     }
 }
