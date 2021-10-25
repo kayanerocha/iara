@@ -7,8 +7,12 @@
         font-size: 100%;
     }
 
+    .container .busca-informacoes{
+        width: 60%;
+    }
+
     .container .info-vetor{
-        width: 90%;
+        width: 70%;
     }
 
     .container .info-vetor .resumo{
